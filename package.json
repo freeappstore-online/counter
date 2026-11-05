@@ -1,14 +1,14 @@
 {
-  "name": "APPNAME",
+  "name": "counter",
   "private": true,
   "packageManager": "pnpm@9.15.4",
   "engines": { "node": ">=22" },
   "pnpm": { "onlyBuiltDependencies": ["esbuild"] },
   "scripts": {
-    "dev": "pnpm --filter @APPNAME/web dev",
-    "build": "pnpm --filter @APPNAME/web build",
-    "preview": "pnpm --filter @APPNAME/web preview",
-    "typecheck": "pnpm --filter @APPNAME/web exec tsc -b",
-    "test": "pnpm --filter @APPNAME/web test"
+    "dev": "pnpm --filter @counter/web dev",
+    "build": "pnpm --filter @counter/web build",
+    "preview": "pnpm --filter @counter/web preview",
+    "typecheck": "pnpm --filter @counter/web exec tsc -b",
+    "test": "pnpm --filter @counter/web test"
   }
 }

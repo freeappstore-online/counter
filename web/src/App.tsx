@@ -7,7 +7,7 @@ export default function App() {
         className="text-3xl font-bold mb-4"
         style={{ fontFamily: "Fraunces, serif" }}
       >
-        Welcome to APPNAME
+        Welcome to Counter
       </h1>
       <p style={{ color: "var(--muted)" }}>
         Edit <code>src/App.tsx</code> to get started.

@@ -1,4 +1,4 @@
-# APPNAME
+# counter
 
 A free app on FreeAppStore.
 
